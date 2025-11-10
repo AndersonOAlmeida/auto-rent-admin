@@ -1,0 +1,76 @@
+:root {
+	/* COLORS */
+	--primary-color: #fff;
+	--secondary-color: #582d2e;
+	--grey: #5c5c5c;
+	--dark: #343a40;
+	--light: #f0f0f0;
+	--alert: #b31610;
+	--success: #4caf50;
+
+	/* DEFAULT BORDER RADIUS */
+	--default-border-radius: var(--default-border-radius);
+	--custom-border-radius: 10px;
+	--border-color: #dee2e6;
+
+	/* SPACING */
+	--wrapper-width: 1440px;
+	--container-width: 120rem;
+	--container-spacing: 2.5rem;
+
+	/* SLICK BANNER */
+	--slider-height: 700px;
+	--transition: .3s ease-out;
+
+	/* FONT-SIZE */
+	--title: 2.5rem;
+	/* h1 - título principal */
+	--subtitle1: 2rem;
+	/* h2 - subtítulo importante */
+	--subtitle2: 1.75rem;
+	/* h3 - subtítulo secundário */
+	--subtitle3: 1.5rem;
+	/* h4 - subtítulo terciário */
+	--text: 1rem;
+	/* p, li - texto padrão */
+	--text-color: var(--grey);
+	/* cor padrão do texto */
+}
+
+/* body configs */
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	font-family: 'Lora', sans-serif;
+	color: var(--grey);
+	text-decoration: none;
+	background-color: #fff;
+}
+
+.container {
+	max-width: var(--container-width);
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: var(--container-spacing) 0;
+	clear: both;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 1rem;
+	max-width: var(--wrapper-width);
+}
+
+/* login page */
+
+.login__page-bg {
+    background-image: url(./src/images/login-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
