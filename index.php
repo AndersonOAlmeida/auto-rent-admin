@@ -6,7 +6,6 @@ include('src/components/head.php');
 </head>
 
 <body class="bg-primary">
-    <?php include('src/components/header-login.php') ?>
     <div>
         <div class="d-flex justify-content-between align-items-center w-100 h-100">
             <div class="w-50 login__page-bg"></div>
