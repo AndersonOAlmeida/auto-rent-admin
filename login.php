@@ -1,5 +1,5 @@
 <?php
-$pageName = "Home Page";
+$pageName = "Login";
 
 include('src/components/head.php');
 ?>
